@@ -74,7 +74,8 @@ db.mongoose
 
 var corsOptions = {
 
-  origin: ["http://localhost:8081"],  
+  //origin: ["http://localhost:8081"],  
+  origin: ["https://main--stellar-starship-f95615.netlify.app/"], 
 credentials: true
 
 
